@@ -3,17 +3,20 @@
     margin: 92px 442px 92px 148px;
 
 }
+
 @media screen and (max-width: 1090px) {
     .intro {
         margin: 92px 286px 92px 48px;
     }
 }
+
 @media screen and (max-width: 960px) {
     .intro {
         max-width: 720px;
         margin: 88px 24px 88px 24px;
     }
 }
+
 @media screen and (max-width: 550px) {
     .intro {
         max-width: 288px;

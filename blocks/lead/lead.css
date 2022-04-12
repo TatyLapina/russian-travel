@@ -1,18 +1,18 @@
 .lead {
-    margin: 0 auto;
-    padding: 0;
-    max-width: 1280px;
-    width: calc(100% - 2*148px);
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1280px;
+  width: calc(100% - 2*148px);
+}
+
+@media screen and (max-width: 1090px) {
+  .lead {
+    width: calc(100% - 2*48px);
   }
-  
-  @media screen and (max-width: 1090px) {
-    .lead {
-      width: calc(100% - 2*48px);
-    }
+}
+
+@media screen and (max-width: 960px) {
+  .lead {
+    width: 100%;
   }
-  
-  @media screen and (max-width: 960px) {
-    .lead {
-      width: 100%;
-    }
-  }
+}

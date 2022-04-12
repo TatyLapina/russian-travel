@@ -2,24 +2,25 @@
     height: 460px;
     width: 100%;
     align-self: start;
-    
+
 }
+
 @media screen and (max-width: 1090px) {
-    .place__image  {
+    .place__image {
         height: 440px;
     }
 
 }
 
 @media screen and (max-width: 960px) {
-    .place__image  {
+    .place__image {
         height: 340px;
     }
 
 }
 
 @media screen and (max-width: 550px) {
-    .place__image  {
+    .place__image {
         height: 320px;
     }
 
